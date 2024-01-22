@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!95 &1816282636
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8032529805153607479}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4f85feaf30af8384d8bb2ab0332ac76b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1816282637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8032529805153607479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59aeb152e67cd4f4ab09bb19ed150b4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCharacter: {fileID: 0}
+  triggerRange: 50
+  currentRange: 0
+  enemyRotation: {x: 0, y: 0, z: 0, w: 0}
+  offset: {x: 0, y: 0, z: 0}
+  lookPos: {x: 0, y: 0, z: 0}
+  bullet: {fileID: 0}
+  moveSpeed: 20
+  turnSpeed: 3
+  hp: 2
+  playerPos: {x: 0, y: 0, z: 0}
+  flyHeight: 3
+  dangerRange: 4
+  runOnceOffset: 1
+  flightHeight: 4
+  flightRadius: 3
+  rangeTriggerBool: 0
+  runOnceLOL: 1
+  active: 1
+  activeOnce: 1
+  radialSpeed: 2
+  myVect: {x: 0, y: 0, z: 0}
+  theirVect: {x: 0, y: 0, z: 0}
+  offsetTimer: 0
+  fireTime: 3
+  canShoot: 1
+--- !u!1001 &7185544458789069414
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.907678
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.48
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.234506
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7849481458523715658, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3943dacfb15f2404cb22ee341978d3db, type: 2}
+    - target: {fileID: -6652725513331149018, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03c3eebdf6290914495e4fb98a142302, type: 2}
+    - target: {fileID: -5052642504373687019, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03c3eebdf6290914495e4fb98a142302, type: 2}
+    - target: {fileID: 835481557267226847, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 03c3eebdf6290914495e4fb98a142302, type: 2}
+    - target: {fileID: 919132149155446097, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_Name
+      value: SlimeBaseWingedFly
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026081558148769356, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3943dacfb15f2404cb22ee341978d3db, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+--- !u!1 &8032529805153607479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 83be6d22cacef0e42b9cd6dd52a9bdb4, type: 3}
+  m_PrefabInstance: {fileID: 7185544458789069414}
+  m_PrefabAsset: {fileID: 0}
